@@ -772,7 +772,6 @@ void RPCConsole::clear(bool clearHistory)
         history.clear();
         historyPtr = 0;
     }
-    ui->lineEdit->clear();
     ui->lineEdit->setFocus();
 
     // Add smoothly scaled icon images.
